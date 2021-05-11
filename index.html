@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Hand Paper Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>Piedra Papel Tijera</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-tag" class="tag">USER</div>
+      <div id="comp-tag" class="tag">COMP</div>
+      <span id="user-score">0</span><span>:</span><span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+      <p id="resultText">GANASTE!</p>
+    </div>
+
+    <div class="options">
+      <div class="option" id="p">
+        <img src="./styles/img/icons8-hand-48.png" />
+      </div>
+      <div class="option" id="r">
+        <img src="./styles/img/icons8-hand-rock-48.png" />
+      </div>
+      <div class="option" id="s">
+        <img src="./styles/img/icons8-hand-scissors-48.png" />
+      </div>
+    </div>
+
+    <p id="action-message">JUEGA!</p>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
